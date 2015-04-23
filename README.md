@@ -35,6 +35,18 @@ target 'NativeDemo' do
 end
 ```
 
+## If you find 'pod install' can't work greatly,Please see here.
+
+1 Please change the name of 'openwebrtc-ios-sdk-master' to 'openwebrtc-ios-sdk'.
+2 Copy the whole folder 'openwebrtc-ios-sdk' to root directory fo your project.
+3 Modify the podfile:
+
+../../../openwebrtc-ios-sdk/OpenWebRTC-SDK.podspec
+changed to
+openwebrtc-ios-sdk/OpenWebRTC-SDK.podspec
+
+4 Now save it and 'pod install'.It will run greatly.
+
 ## Overview
 
 As a quick overview, there are the classes to know to use the SDK.
